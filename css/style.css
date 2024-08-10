@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+span {
+  color: #e9b704;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url(../images/Alvatan.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-left: 20px;
+}
+.btn-login {
+  padding: 10px 30px;
+  font-size: 23px;
+  border: none;
+  border-radius: 10px;
+  width: 390px;
+  background-color: #bdbdbd;
+  color: #ffffff;
+  margin: 30px 0;
+  transition: 0.2s;
+}
+.btn-login:hover {
+  background-color: #e9b704;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.btn-sign {
+  padding: 10px 30px;
+  font-size: 23px;
+  border: none;
+  border-radius: 10px;
+  width: 390px;
+  background-color: #bdbdbd;
+  color: #ffffff;
+  margin: 30px 0;
+  transition: 0.2s;
+}
+.btn-sign:hover {
+  background-color: #e9b704;
+  transition: 0.2s;
+  cursor: pointer;
+}
+a {
+  display: block;
+  text-align: end;
+  margin-right: 120px;
+  color: #a5a5a2 !important;
+  text-decoration: none !important;
+}
+.login form a:hover {
+  color: #e9b704 !important;
+}
+input {
+  padding: 10px 30px;
+  border: 2px solid #9f9f9f;
+  border-radius: 10px;
+  width: 390px;
+  outline: none;
+}
+input:hover {
+  border: 2px solid #e9b704;
+}
+input:focus {
+  box-shadow: 0px 0px 5px 3px #e9b704;
+  outline: none;
+  border: 2px solid #e9b704;
+}
+
+
+.smart-trans {
+  width: 50%;
+  background-color: #e9b704;
+  color: #ffffff;
+  border-radius: 0 0 0 50px;
+}
+
+.verify {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url(../images/Alvatan.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-left: 20px;
+}
+
+.btn-verify {
+  padding: 10px 30px;
+  font-size: 24px;
+  border: none;
+  border-radius: 10px;
+  width: 390px;
+  background-color: #bdbdbd;
+  color: #ffffff;
+  margin: 30px 0;
+  transition: 0.2s;
+}
+.btn-verify:hover {
+  background-color: #e9b704;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.verify-alvatan a {
+  display: block;
+  text-align: end;
+  margin-left: 20px;
+  text-decoration: underline !important;
+}
+
+.verify form a:hover {
+  color: #e9b704 !important;
+}
+
+#code {
+  border: 2px solid #9f9f9f;
+  padding: 0;
+  font-size: 35px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 70px;
+  height: 60px;
+  outline: none;
+}
+/* ////////////////////////////////////////////////////////////////////// */
+.container1{
+  width: 900px;
+}
+img:hover{
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 5px black;
+  transition: .7s;
+}
+#btn{
+  width: 30px;height: 30px;border: none;line-height: 1px;border-radius: 50%;background-color: blueviolet;color: #000;position: fixed;bottom: 30px;right: 10px;display: none;
+}
+#signIn{
+  width: 60px;
+  height: 30px;
+  border-radius: 10%;
+  background-color: #bdbdbd;
+}
+#signUp{
+  width: 60px;
+  height: 30px;
+  border-radius: 10%;
+  background-color: #bdbdbd;
+}
